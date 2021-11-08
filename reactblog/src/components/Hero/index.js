@@ -1,9 +1,14 @@
 import React from 'react';
+import Card from '../UI/Card';
 import './style.css';
+import Logo from '../Logo/index'
+
 const Hero = (props) => {
     return (
         <div>
-            Hero
+            <Card>
+                <Logo />
+            </Card>
         </div>
     )
 }
