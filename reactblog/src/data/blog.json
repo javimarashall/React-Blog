@@ -1,0 +1,23 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "blogCategory": "Featured",
+            "blogTitle": "Fitness Mantra To Live Fit Life",
+            "postedOn": "July 21, 2016",
+            "author": "Faiz Khan",
+            "blogImage": "IMG_2256.jpg",
+            "BlogText": "In this article, we will briefly and concisely address 15 libraries that can be widely used in applications in 2021. I say that this article will list the libraries that I recommend and that at some point I used in projects during the development process."
+        },
+        {
+            "id": 2,
+            "blogCategory": "Featured",
+            "blogTitle": "Second Fitness Mantra To Live Fit Life",
+            "postedOn": "July 22, 2016",
+            "author": "Faiz Khan",
+            "blogImage": "IMG_2284.jpg",
+            "BlogText": "We will take into account in the recommendations factors such as: relevance by the score, community votes and if they are being frequently updated by the creators and by the community, not to include in this article discontinued libraries."
+            
+        }
+    ]
+}

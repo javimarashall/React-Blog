@@ -3,7 +3,8 @@ import './style.css';
 
 const Card = (props) => {
     return (
-        <div className='card'>
+        //...props being used to pass the style properties. style={props.style} also work
+        <div className='card' {...props}> 
             {props.children}
         </div>
     )
