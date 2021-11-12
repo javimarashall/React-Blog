@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './style.css';
-import searchPhoto from '../../assets/search.png';
+import searchPhoto from '../../assets/search.png'; //import the photo first for the search icon
+import { NavLink } from 'react-router-dom';
 
 const Navbar = (props) => {
     //sets the state for the search icon
@@ -11,7 +12,7 @@ const Navbar = (props) => {
         setSearch(true);
     }
 
-    //dynamically create a class and use it as a variable in the input
+    //dynamically create NavLink class and use it as NavLink variable in the input
     const searchClass= search ? 'searchinput active' : 'searchinput';
 
 
@@ -24,10 +25,10 @@ const Navbar = (props) => {
     return (
         <div className='navbar'>
             <ul className='navbarMenu'>
-                <li><a href='#'>Home</a></li>
-                <li><a href='#'>About Us</a></li>
-                <li><a href='#'>Post</a></li>
-                <li><a href='#'>Contact Us</a></li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='/about-us'>About Us</NavLink></li>
+                <li><NavLink to='/post'>Post</NavLink></li>
+                <li><NavLink to='/contact-us'>Contact Us</NavLink></li>
             </ul>
             <div className='search'>
                 <form onSubmit={submitSearch}>

@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Home from './containers/Home/index';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import ContactUs from './containers/ContactUs/index';
+import Post from './containers/Post';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route exact path="/" element={<Home/>} />
         <Route exact path="/contact-us" element={<ContactUs/>} />
+        <Route exact path="/post" element={<Post/>} />
       </Routes>
       </div>
   </Router>
